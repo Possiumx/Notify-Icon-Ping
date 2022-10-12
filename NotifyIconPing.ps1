@@ -43,7 +43,7 @@ while($global:exit -eq $False){
     Start-Sleep -Milliseconds (60000/$PingsPerMinute)
 
     #Ping Test
-    $ping = Test-Connection -ComputerName $global:IPv4Address -Count 1
+    $ping = Test-Connection -ComputerName $IPv4Address -Count 1
 
     #Failed Ping
     if($ping -eq $null){$icon.Icon = ".\ico\!.ico"}
