@@ -30,7 +30,7 @@ $global:exit = $False
 #Initialize NotifyIcon
 Add-Type -AssemblyName System.Windows.Forms
 $icon = New-Object System.Windows.Forms.NotifyIcon
-$icon.Text = $global:IPv4Address
+$icon.Text = $IPv4Address
 $icon.Icon = ".\ico\!.ico"
 $icon.Visible = $True
 
