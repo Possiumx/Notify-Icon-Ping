@@ -5,9 +5,9 @@ Write-Host
 Double Click Icon To End
 
 Icon Legend
-[.0] to [.9] ≈ 0ms to 99ms
-[1.] to [9.] ≈ 100ms to 999ms
-[!] ≈ Bad Connection > 1000ms
+[.0] to [.9] = 0ms to 99ms
+[1.] to [9.] = 100ms to 999ms
+[!] = Bad Connection > 1000ms
 [!!!] = Failed/No Connection
 "
 #Get User Input
