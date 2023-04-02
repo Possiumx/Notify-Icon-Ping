@@ -91,7 +91,7 @@ while($global:exit -eq $False){
 
     #Update NotifyIcon via Rounded Ping
     switch($ms){
-    $null{Blink('!!!'); $icon.Icon = ".\ico\!!!.ico"}
+    $null{Blink('!!!'); $icon.Icon = ".\ico\iii.ico"}
     0{Blink('<'); $icon.Icon = ".\ico\i0.ico"}
     10{Blink('<'); $icon.Icon = ".\ico\i1.ico"}
     20{Blink('<'); $icon.Icon = ".\ico\i2.ico"}
@@ -112,7 +112,7 @@ while($global:exit -eq $False){
     800{Blink('>'); $icon.Icon = ".\ico\8i.ico"}
     900{Blink('>'); $icon.Icon = ".\ico\9i.ico"}
     1000{Blink('>'); $icon.Icon = ".\ico\9i.ico"}
-    9999{Blink('!'); $icon.Icon = ".\ico\!.ico"}
+    9999{Blink('!'); $icon.Icon = ".\ico\i.ico"}
     }
 
     #Debugging
