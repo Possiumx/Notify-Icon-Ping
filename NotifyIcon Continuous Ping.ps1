@@ -77,9 +77,9 @@ while($global:exit -eq $False){
         param($i)
         switch($i)
         {
-        '<'{$icon.Icon = ".\ico\.$.ico"}
-        '>'{$icon.Icon = ".\ico\$.ico"}
-        Default{$icon.Icon = ".\ico\!!.ico"}
+        '<'{$icon.Icon = ".\ico\ix.ico"}
+        '>'{$icon.Icon = ".\ico\xi.ico"}
+        Default{$icon.Icon = ".\ico\x.ico"}
         }
         switch($i)
         {
@@ -92,26 +92,26 @@ while($global:exit -eq $False){
     #Update NotifyIcon via Rounded Ping
     switch($ms){
     $null{Blink('!!!'); $icon.Icon = ".\ico\!!!.ico"}
-    0{Blink('<'); $icon.Icon = ".\ico\.0.ico"}
-    10{Blink('<'); $icon.Icon = ".\ico\.1.ico"}
-    20{Blink('<'); $icon.Icon = ".\ico\.2.ico"}
-    30{Blink('<'); $icon.Icon = ".\ico\.3.ico"}
-    40{Blink('<'); $icon.Icon = ".\ico\.4.ico"}
-    50{Blink('<'); $icon.Icon = ".\ico\.5.ico"}
-    60{Blink('<'); $icon.Icon = ".\ico\.6.ico"}
-    70{Blink('<'); $icon.Icon = ".\ico\.7.ico"}
-    80{Blink('<'); $icon.Icon = ".\ico\.8.ico"}
-    90{Blink('<'); $icon.Icon = ".\ico\.9.ico"}
-    100{Blink('>'); $icon.Icon = ".\ico\1.ico"}
-    200{Blink('>'); $icon.Icon = ".\ico\2.ico"}
-    300{Blink('>'); $icon.Icon = ".\ico\3.ico"}
-    400{Blink('>'); $icon.Icon = ".\ico\4.ico"}
-    500{Blink('>'); $icon.Icon = ".\ico\5.ico"}
-    600{Blink('>'); $icon.Icon = ".\ico\6.ico"}
-    700{Blink('>'); $icon.Icon = ".\ico\7.ico"}
-    800{Blink('>'); $icon.Icon = ".\ico\8.ico"}
-    900{Blink('>'); $icon.Icon = ".\ico\9.ico"}
-    1000{Blink('>'); $icon.Icon = ".\ico\9.ico"}
+    0{Blink('<'); $icon.Icon = ".\ico\i0.ico"}
+    10{Blink('<'); $icon.Icon = ".\ico\i1.ico"}
+    20{Blink('<'); $icon.Icon = ".\ico\i2.ico"}
+    30{Blink('<'); $icon.Icon = ".\ico\i3.ico"}
+    40{Blink('<'); $icon.Icon = ".\ico\i4.ico"}
+    50{Blink('<'); $icon.Icon = ".\ico\i5.ico"}
+    60{Blink('<'); $icon.Icon = ".\ico\i6.ico"}
+    70{Blink('<'); $icon.Icon = ".\ico\i7.ico"}
+    80{Blink('<'); $icon.Icon = ".\ico\i8.ico"}
+    90{Blink('<'); $icon.Icon = ".\ico\i9.ico"}
+    100{Blink('>'); $icon.Icon = ".\ico\1i.ico"}
+    200{Blink('>'); $icon.Icon = ".\ico\2i.ico"}
+    300{Blink('>'); $icon.Icon = ".\ico\3i.ico"}
+    400{Blink('>'); $icon.Icon = ".\ico\4i.ico"}
+    500{Blink('>'); $icon.Icon = ".\ico\5i.ico"}
+    600{Blink('>'); $icon.Icon = ".\ico\6i.ico"}
+    700{Blink('>'); $icon.Icon = ".\ico\7i.ico"}
+    800{Blink('>'); $icon.Icon = ".\ico\8i.ico"}
+    900{Blink('>'); $icon.Icon = ".\ico\9i.ico"}
+    1000{Blink('>'); $icon.Icon = ".\ico\9i.ico"}
     9999{Blink('!'); $icon.Icon = ".\ico\!.ico"}
     }
 
