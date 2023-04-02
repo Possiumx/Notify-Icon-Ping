@@ -1,7 +1,7 @@
 
 #ReadMe Message
 Write-Host
-"NotifyIcon Continuous Ping
+"Notifyicon Continuous Ping
 Double Click Icon To End
 
 Icon Legend
